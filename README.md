@@ -33,4 +33,6 @@ If you use test flag scripts generates file test.cpp with empty case of test and
     cd newproject
     chmod +x newproject.sh
     ./newproject.sh yourprojectname -t
+
+If you have newproject.sh on harddisk just move it to destination folder and execute by ./newproject.sh yourprojectname -t
     
