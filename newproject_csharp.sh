@@ -1,20 +1,18 @@
 #!/bin/bash
 
-## PiotrQ Bash Script - C++ Project Generator with GTest v0.1
+## PiotrQ Bash Script - C# Project Generator with GTest v0.1
 ## GitHub: https://github.com/piotrku91/newproject.git
 ## Author website: piotrq.eu
 
 
 # Create folder of new project
-echo "PiotrQ Bash Script - C# Project Generator with GTest"
+echo "PiotrQ Bash Script - C# Project Generator"
 echo "-----------------------------------------------------"
 echo ""
 
 
 if [ "$1" = "" ]; then
-    echo "Usage: ./newproject.sh projectname [testincludeflag]"
-    echo "Example: ./newproject.sh newproj -t (create project with Gtest)"
-    echo "Example: ./newproject.sh newproj (create project without Gtest)"
+    echo "Usage: ./newproject_csharp.sh projectname "
     exit 0
 fi
 
